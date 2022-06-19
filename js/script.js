@@ -32,3 +32,16 @@ mainNav.addEventListener("click", function(event) {
 window.addEventListener("resize", function(event) {
     if (window.innerWidth >= 768) resetNav();
 })
+
+
+// Modals
+
+const openModals = document.querySelectorAll("cards-list");
+const closeModal = document.querySelectorAll("close-button");
+const modal = document.querySelectorAll("modal-content")
+
+openModals.forEach(modal => {
+    this.addEventListener("click",function (event) {
+        modal.showModal();
+    })
+});

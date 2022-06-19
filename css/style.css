@@ -665,3 +665,26 @@ body.template-dark {
         background-color: var(--instagram-color);
     }
 }
+/* MODALS */
+
+.modal {
+   
+    height: 15rem;
+    width: 20rem;
+    background-color: #000;
+    display: block;
+
+
+}
+
+.modal-header {
+    color: var(--secondary-color);
+}
+
+
+.close-button {
+    
+    
+    height: 2rem;
+    width: 2rem;
+}
