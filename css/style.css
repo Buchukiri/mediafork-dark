@@ -667,12 +667,9 @@ body.template-dark {
 }
 /* MODALS */
 
-.modal {
-   
-    height: 15rem;
-    width: 20rem;
-    background-color: #000;
-    display: block;
+.modal-content {
+    padding: 1em;
+    max-width: 50ch;
 
 
 }
@@ -681,10 +678,37 @@ body.template-dark {
     color: var(--secondary-color);
 }
 
-
 .close-button {
-    
-    
-    height: 2rem;
-    width: 2rem;
+    color: #fff;
+    size: 2rem;
+}
+
+/* BACKGROUND IMAGES OF MODALS */
+#ideasModal {
+    background-image: url(/img/icon-web.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+#itModal {
+    background-image: url(/img/icon-time.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#webModal {
+    background-image: url(/img/icon-phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#creativeModal {
+    background-image: url(/img/icon-lightbulb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }

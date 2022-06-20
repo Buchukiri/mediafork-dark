@@ -36,12 +36,25 @@ window.addEventListener("resize", function(event) {
 
 // Modals
 
-const openModals = document.querySelectorAll("cards-list");
-const closeModal = document.querySelectorAll("close-button");
-const modal = document.querySelectorAll("modal-content")
+const openModals = document.querySelectorAll(".card");
+console.log(openModals);
+const closeModal = document.querySelectorAll(".close-button");
+console.log(closeModal)
 
+const modals = document.querySelectorAll(".modal-content")
+console.log(modals);
+
+// openModals.forEach(modal => {
+//     modal.addEventListener("click", () => {
+//         modal.showModal();
+        
+//     })
+// });
 openModals.forEach(modal => {
-    this.addEventListener("click",function (event) {
-        modal.showModal();
+    this.addEventListener("click", () => {
+        modal.showModal()
     })
+    
 });
+    
+
